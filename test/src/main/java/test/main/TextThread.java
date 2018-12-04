@@ -201,8 +201,8 @@ public class TextThread{
 
         ArrayList arrayList = GetFile.getFile("/Users/qufenqi/Documents/campus/campus_proce/split-id/uid");
         for (int i = 0 ;i<arrayList.size();i++){
-         //   System.out.println(arrayList.get(i));
-            //executorService.execute(new TThread(String.valueOf(i), (String) arrayList.get(i)));
+            System.out.println(arrayList.get(i));
+            executorService.execute(new TThread(String.valueOf(i), (String) arrayList.get(i)));
 
 
         }
