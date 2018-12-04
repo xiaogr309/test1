@@ -174,6 +174,7 @@ public class TextThread{
 //        System.out.println(arrayBlockingQueue.size());
         InsertThread insertThread = new InsertThread();
         Couseume couseume = new Couseume();
+        System.out.println(12);
 
         List<Callable<String>> list = new ArrayList<Callable<String>>();
 //        InvokeTest invokeTest = new InvokeTest("xx");
